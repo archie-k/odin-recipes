@@ -1,15 +1,43 @@
+body {
+  background: cornsilk;
+  font-family: monospace;
+}
+
 h1 {
+  font: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
   text-align: center;
 }
 
 img {
-  height: 700px;
+  height: 500px;
   display: block;
   margin: 0 auto;
+  border-radius: 20px;
 }
 
 .recipes {
   text-align: center;
   font-size: 1.5rem;
   list-style-type: none;
+}
+
+.ingridiens {
+  text-align: center;
+}
+
+.instructions {
+  line-height: 2;
+  text-align: left;
+}
+
+.homepage {
+  font-size: 1.25rem;
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
 }
