@@ -26,7 +26,7 @@ img {
   list-style-type: none;
 }
 
-.ingridiens {
+.ingredients {
   text-align: center;
 }
 
@@ -36,8 +36,14 @@ img {
 }
 
 .homepage {
+  text-decoration: none;
+  font-weight: bold;
   font-size: 1.25rem;
   text-decoration: none;
   position: absolute;
-  top: 20px;
+  top: 22px;
+}
+
+a:visited {
+  color: black;
 }
